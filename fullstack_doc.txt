@@ -1,0 +1,224 @@
+DATE:28.02.2024
+=============================================
+FULL STACK DEVELOPMENT IN JAVA
+
+MAVEN
+=========================================================
+MAVEN IS BUILD TOOL
+MAVEN IS TO AUTOMATE THE BUILDING PROCESS
+MEANING BUILDING PROCESS
+=========================================
+1.DOWNLOAD THE JAR FILES FORM INTERNET
+2.COMPILE THE SOURCE CODE
+3.EXECUTE TESTING
+4.PACKAING TO JAR/WAR FILE
+PURPOSE
+=======================
+MAVEN IS SIMPLYFY TO AUTOMATE BUILDING PROCESS
+
+SET UP
+=============================
+TWO WAYS
+=======================
+1.USING COMMAND PROMPT
+2.BY USING IDE
+EX:ECLIPSE,STS,INTELLIJ
+
+MAVEN TERMINOLOGY
+=============================
+ARCHETYPE:TYPE OF PROJECT ==QUICK START/WEB
+GROUPID===INDUSTRY TYPES EX:COM.AEC
+ARTIFACTID:NAME OF THE PROJECT
+VERSION:SNAPSHOT=====UNDER DEVELOPING
+        RELEASE=======COMPLETED
+DEPENDENCY====JAR FILES
+REPOSITORY===LOCALTION WHERE JAR FILES STORES
+THREE TYPES
+==========================
+1.CENTRAL====IN THE INTERNET  MAVEN SERVER
+2.LOCAL=======YOUR HDD
+3.REMOTE====PRIVATE TO THE COMPANY
+
+POM.XML
+==================
+PROJECT OBJECT MODEL
+IT IS HEART OF THE MAVEN
+PROJECT CONFIGURATION
+DEPENDENCY MANAGEMENT
+PLUGINS 
+===========================================
+GOALS
+=============================================
+clean
+compile
+test
+package
+
+C:\Users\arins\.m2\repository====LOCAL REPOSITORY LOCATION
+TRANSITIVE DEPENDENCY
+=======================================================================================
+SPRING
+=======================================================================================
+DESKTOP APPLICATION====CORE JAVA,AWT,SWING,SPRING                ===JAR FILES
+WEB APPLICATION=======SERVLET,JSP,HTML,CSS,JAVASCRIPT,SPRING      ====WAR FILES
+ENTERPRISE APPLICATION===EJB,SPRING                               =====EAR FILES(JAR+WAR)
+
+DEFINATION
+============================================
+SPRING IS OPEN SOURCE LIGHT WEIGHT DEPENDENCY INJECTNION BASED FREAMEWORK SOFTWARE TO DEVELOP JAVA/JEE BASED ENTERPRISE
+APPLICATION
+
+HEAVY WEIGHT
+=================================================
+.java===compile===.class =====container===.java===.class===o/p
+LIGHT WEIGHT
+============================================================
+.java===compile===.class===container====.class===o/p
+
+FEATURES
+=======================
+POJO CLASS
+POJO
+==========================
+PLAIN OLD JAVA OBJECT
+GETTER 
+SETTER
+CONSTRUCTOR
+
+XML
+ANNOTATION
+
+
+===============================================================
+
+FRAMEWORK
+====================================================
+TECHNOLOGIES+DESIGN PATTERN
+DATABASE ===JDBC API
+MESSAGING===JMS
+MAILING===JAVA MAIL
+DESIGN PATTERN
+=========================
+WELL APPROVED SOLUTION
+EX:MVC,SINGLETON,FACTORY ,SAGA
+OBJECTIVE OF FRAMEWORK
+=============================
+RAD===RAPID APPLICATION DEVELOPMENT
+DEVELOPER ABLE TO DO FASTER DEVELOPMENT USING FRAMEWORK BECAUSE THERE IS PREDEFINED CLASS METHODS INTERFACES
+ARE TRHERE ALONG WITH DESIGN PATTERN
+
+SPRING BEAN
+=========================
+CLASS+RULES GIVEN BY SPRING
+DEPENDENCY
+==================================================
+INSTANCE VARIABLE
+=======================
+DECLARED AT THE CLASS LEVEL
+EX:
+class Test
+{
+  private String eid;==============   INSTANCE VARIABLE
+private String ename;==============
+}
+TYPES OF DEPENDENCY IN  SPRING
+==================================================================
+1.PRIMITIVE TYPES:INT,DOUBLE,FLOAT,LONG
+2.COLLECTION TYPES:LIST,SET,MAP,PROPERTIES
+3.REFERENCE TYPE
+
+DEPENDENCY INJECTION
+==============================================
+PROVIDE/UPDATE DATA INTO DEPENDENCY CALLED DEPENDENCY INJECTION
+
+FEATURES OF SPRING
+===============================
+1.IT IS USED FOR DISTRIBUTED/WEB APPLICATION
+2.IT IS A CONTAINER SYSTEM
+CONTAINER SYSTEM
+==========================================
+1.FISRT SCAN THE CLASS
+2.CREATE THE OBJECT
+3.ASSING DATA
+4.LINKING THE OBJECT
+5.DETROY THE OBJECT
+
+TYPES OF DEPENDENCY INJECTION
+===================================
+1.SETTER INJECTION
+2.CONSTRUCTOR INJECTION
+3.INTERFACE INJECTION
+4.LOOK UP METHOD INJECTION
+TWO TYPES OF CONTAINER IN SPRING
+==================================
+1.BEANFACTORY==SUPPORT ONLY XML
+2.APPLICATIONCONTEXT====SUPPORT XML,CLASS,ANNOTATION
+APPLICATION CONTEXT IS CALLED IOC(INVERSION CONTROL)
+SPRING MODULES
+=================================================
+1.SPRING CORE
+2.SPRING JDBC
+3.SPRING CONTEXT
+4.SPRING AOP
+5.SPRING ORM
+6.SPRING WEB=========   SPRING WEB MVC
+7.SPRING MVC=========
+
+SPRING CORE
+=================================================
+RULES GIVEN SPRING TO DEVELOP SPRING APPLICATION
+1.CLASS SHOULD BE PUBLIC
+2,INSTANCE VARIABLE IS PRIVATE
+3.USE DEFAULT CONSTRUCTOR
+4.USE PARAMETERISED CONSTRUCTOR
+5.USE GETTTER SETTER METHODS
+6.USE toString(),hashcode() and equals()
+7.USE ANNOTATION
+TYPES OF ANNOTATION
+======================================
+TWO TYPES OF ANNOTATION
+===================================
+1.STEREOTYPE ANNOTATION
+===========================================
+RELATED TO OBJECT
+@component
+@service
+@repository
+@controller
+@RestController
+2.BASIC ANNOTATION
+@componentScan
+@propertySource
+@Autowire
+@primary
+@qualifier
+=====================================================
+
+@Data===GETTER AND SETTER
+@Component
+@ComponentScan
+@value
+@NoArgsConstructor
+@AllArgsConstructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
