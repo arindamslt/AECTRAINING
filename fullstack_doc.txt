@@ -201,7 +201,85 @@ RELATED TO OBJECT
 @NoArgsConstructor
 @AllArgsConstructor
 
+PRACTICAL LINK
+=====================================================
 https://github.com/arindamslt/AECTRAININGPRACTICAL.git
+TRAINING MATERIALS LINK
+====================================================
+https://github.com/arindamslt/AECTRAINING.git
+
+HIBERNATE
+====================================================================================
+HIBERNATE IS A FRAMEWORK.
+IT IS WORKED ON DATA LAYER
+CREATE TABLE TABLE1
+(ED VARCHAR(10));
+STEP 1
+==========================
+CREATE A DATABSE IN MYSQL
+STEP2
+=============================
+CREATE MAVEN PROJECT 
+DEPENDENCY ADDED
+=======================
+HIBERNATE
+LOMBOK
+MYSQL
+STEP3
+========================================
+ADD RESOUCCES FOLDER IN SRC/MAIN
+RIGHT CLICK ON PROJECT===GO TO PROTERTIES ===JAVA BUILD PATH====ADD CHECK BOX OF JRE
+STEP 4
+================================================
+ADD META-INF FROM GITHUB PLACED INTO SRC/MAIN/RESOURCES FOLDER
+CLASS==EMPLOYEE TABLENAME===EMPLOYEE_MASTER
+===============
+EID===AUTOGERATED    
+ENAME===NOT NULL====25
+ESDESIG===25
+JOINDT====TODAY'S DATE
+WORKHR ===TODAY'S DATE AND TIME
+EMAIL======30
+SAL
+==================================================================================================
+
+ANNOTATION
+================================
+@Entity==== TABLE CREATION WITH NAME OF CLASS NAME
+@Table=====CREATE THE TABLE ACCRDING TO PROGRAMMER NAME
+@Id========PRIMARY KEY
+@Column=====CHANGE THE COLUMN STRUCTURE
+@GeneratedValue====Auto Generated Column value
+@Temporal====For Using Date And Time Both
+CRUD OPERATION
+================================================================================
+INSERT UPDATE DELETE FETCH 
+
+PRODUCT
+========================
+PID
+PNAME
+PQTY
+PRICE
+FETCHING DATA FROM A DATABASE CAN BE DONE BY
+===============================================
+1.JPQL===JAVA PERSISTENCE QUERY LANGUAGE
+2.HQL====HIBERNATE QUERY LANGUAGE
+3.NATIVE SQL====NORMAL SQL
+SELECT * FROM PRODUCT;
+SELECT P FROM Product p;
+from Product;
+
+TYPES OF MAPPING
+=======================
+ONE TO ONE
+ONE TO MANY
+MANY TO ONE
+MANY TO MANY
+
+
+
+
 
 
 
