@@ -38,6 +38,14 @@ FOR HIBERNATE
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.33</version>
 </dependency>
+
+BOOT JDBC IN application.properties
+================================================================
+# Database Connection
+spring.datasource.url=jdbc:mysql://localhost:3306/aec
+spring.datasource.username=root
+spring.datasource.password=arindam
+#debug=true
 ==================================================================
 SPRING DATA JPA 
 =====================================================================
