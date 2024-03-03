@@ -1,0 +1,87 @@
+REACT 
+========================================
+FOR REACT ELEMENT
+=========================================================================
+ <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+ <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+================================================================================
+FOR JSX
+=================================================================================
+ <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+=================================================================================
+TO CREATE THE CREAT REACT APP
+=========================================================================
+npx create-react-app reactapp
+THEN GO TO TERMINAL
+===============================
+CD reactapp
+npm start
+==========================================================================
+NOW CUSTOMIZE YOUR PROJECT
+=========================================================================
+STEP1
+=======================================================================
+GO TO SRC FOLDER
+REMOVE App.test.js
+Remove reportWebVitals.js
+Remove setupTest.js
+STEP2
+===============================================================
+THEN GO TO index.js
+=============================================================
+Remove this line  import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom/client' Here /client will remove
+remove entire thing
+======================================================================
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+===============================================================================
+in index.js Add
+=========================================================
+ReactDOM.render(<App/>,document.getElementById("root"));
+=============================================================
+STEP3
+========================================================================
+IN APP.JS
+=========================================================
+REMOVE import logo from './logo.svg';
+delete <header> </header>
+ADD 
+<h2>REACT ELEMENT</h2>
+=============================================================
+GOTO public folder Open index.html file
+=================================================================
+IN HEAD SECTION REMOVE ALL THE THINGS EXCEPT TITLE
+IN BODY SECTION
+=======================================================
+REMOVE ALL THINGS EXCEPT <div id="root"></div>
+====================================================
+
+
+CREATING REACT APP
+=========================================================
+npx create-react-app appdemo
+AXIOS LIBRARY
+==============================================================
+npm install axios
+ROUTING
+===================================================
+npm install react-router-dom
+BOOTSTRAP
+=================================================
+npm install bootstarp
+THEN GO TO App.js and add
+==================================================
+import "bootstrap/dist/css/bootstrap.css";
+=================================================
