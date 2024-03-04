@@ -85,3 +85,9 @@ THEN GO TO App.js and add
 ==================================================
 import "bootstrap/dist/css/bootstrap.css";
 =================================================
+JSX
+=====================================================
+JSX PROVIDE ALMOST 99% SIMNILAR TO HTML DESIGN 
+
+JSX====BABEL COMPILE
+

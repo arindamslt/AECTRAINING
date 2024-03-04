@@ -1,0 +1,36 @@
+ROUTING IN  REACT
+==============================
+STEP 1
+===========================================
+npm install react-router-dom
+IN index.js file
+====================================
+STEP 2
+=============================================
+import {BrowserRouter} from 'react-router-dom'
+ReactDOM.render(
+    <BrowserRouter>
+<App/>
+</BrowserRouter>,
+document.getElementById("root"));
+==============================================
+STEP 3
+=================================================
+IN APP.JS
+==================================================
+import { Route, Routes } from "react-router-dom";
+IN APP.JS
+================================================
+<Routes>
+<Route>
+<Route path={"/"} element={<Home />} />
+<Route path={"/product"} element={<Product />} />
+</Routes>
+=================================================================
+
+
+<Link to="/home">HOME</Link>
+        <Link to="/order">ORDER</Link>
+        <Link to="product">PRODUCT</Link>
+        
+        <Link to="contact">CONTACT US</Link>

@@ -457,6 +457,87 @@ http://localhost:1004/order/upd/2
 REST API CRUD OPERATION
 INSERT UPDATE DELETE FETCH FETCH THE DATA BY ID
 
+DATE:04.03.2024
+==========================================================================================================
+
+DOM
+==============================
+DOCUMENT OBJECT MODEL
+THE ELEMENTS OF HTML ARE CONVERTED INTO OBJECTS ARE CALLED NODE .THEY WILL ARRANGE IN A TREE LIKE STRUCTURE 
+CALLED DOM
+
+HTML PARSE INTO BYTES====TOKEN====OBJECT
+
+WE CAN ACCESS HTML ELEMENTS BY MEANS
+ID VALUE
+CLASS VALUE
+TAG
+DOM MANIPULATION CAN BE BY USING JAVASCRIPT
+NODE JS
+VISUAL STUDIO CODE
+
+JAVASCRIPT CAN DEVELOP THE UI PART
+
+CREATING REACT APP
+=========================================================
+npx create-react-app appdemo
+AXIOS LIBRARY
+==============================================================
+npm install axios
+ROUTING
+===================================================
+npm install react-router-dom
+BOOTSTRAP
+=================================================
+npm install bootstarp
+THEN GO TO App.js and add
+==================================================
+import "bootstrap/dist/css/bootstrap.css";
+=================================================
+JSX
+=====================================================
+JSX PROVIDE ALMOST 99% SIMNILAR TO HTML DESIGN 
+
+JSX====BABEL COMPILER==REACT ELEMENT====REACT DOM ====RENDER()===DOM====BROWSER ENGINE
+
+JAVASCRIPT                          VS                      REACT
+========================================================================================================
+onClick="ui()"                                         onClick={ui}
+style=bgcolor:red;                                     <div style="{{textAlign:"center",marginTop:"50px" }}"
+==========================================================================================================
+REACT JS APPLICATION USING CRA TOOL
+=========================================================================================
+npm create-raeact-app   appname====install create react app in your machine
+npx create-react-app   appname===
+
+
+
+
+FUNCTIONAL COMPONENT
+IN LINE CSS IN REACT
+EXTERNAL CSS IN REACT
+
+REACT HOOK
+==========================================
+REACT HOOK IS A SPECIAL FUNCTION USED FOR SPECIAL PURPOSE
+useState()
+useState()
+let[state,setState]=useState({ data{ 
+title:"",
+subtitile:""
+}
+} )
+setState({
+ data.title="",
+ data.subtitle=""
+})
+<h2>{data.title}</h2>
+<h3>{data.subtitile}</h3>
+
+
+
+
+
 
 
 
