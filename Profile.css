@@ -1,0 +1,16 @@
+.profileContainer
+{
+    /*background-color: red;*/
+    display: flex;
+}
+.leftContainer{
+   /* background-color: blue;*/
+    width: 40%;
+    margin-top: 50px;
+}
+.rightContainer
+{
+    /*background-color: grey;*/
+    width:60%;
+    margin-left: 50px;
+}
