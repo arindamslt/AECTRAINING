@@ -27,10 +27,17 @@ IN APP.JS
 <Route path={"/product"} element={<Product />} />
 </Routes>
 =================================================================
-
+import { Link,NavLink } from "react-router-dom";
 
 <Link to="/home">HOME</Link>
         <Link to="/order">ORDER</Link>
         <Link to="product">PRODUCT</Link>
         
         <Link to="contact">CONTACT US</Link>
+
+
+ <NavLink to="/">Home</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
+        <NavLink to="/products">Products</NavLink>
+        <NavLink to="/cart">Add-To-Cart</NavLink>
+        <NavLink to="/redux">Redux</NavLink>
