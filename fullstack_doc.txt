@@ -522,40 +522,34 @@ REACT HOOK
 REACT HOOK IS A SPECIAL FUNCTION USED FOR SPECIAL PURPOSE
 useState()
 useState()
-let[state,setState]=useState({ data{ 
+let[state,setState]=useState({  
 title:"",
-subtitile:""
+subtitile:"",
+img:""
 }
-} )
+ )
 setState({
  data.title="",
  data.subtitle=""
 })
-<h2>{data.title}</h2>
-<h3>{data.subtitile}</h3>
+<h2>{state.title}</h2>
+<h3>{state.subtitile}</h3>
 
-DATE:05.03.2024
-==========================================================================================
-ES6
-============================
-1.CONST,LET
-2.SPREAD OPERATOR
-3.REST PARAMATER
-4.DESTRUCTURING OF OBJECT
-5.MAP FUNCTION IN ARRAY
-6.PROMISE
-CONST VS LET  VS VAR
-===================================================================================
-SPREAD OPERATOR
-================================
-COPIES THE VALUES OF ONE OBJECT INTO ANOTHER
-...
-REST PARAMETER
-=============================
-(...)
-DESTRCTING THE OBJECT
-========================================
-UNPACK DATA FROM LIST OF OBJECT VALUES
+===============================================================
+
+PURE FUNCTION===FUNCTION HAS NO SIDE EFFECT
+THERE ARE SOME FUNCTION HAVE SIDE EFFECTS
+useEffect
+{useEffect}
+{useState}
+{Route}
+{Routes}
+{Link}
+{BrowserRouter}
+
+
+NESTED ROUTING
+=========================================================================
 
 
 
