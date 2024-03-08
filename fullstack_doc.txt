@@ -553,8 +553,36 @@ NESTED ROUTING
 
 
 
+DATE:07.03.2024
+=================================================================================
+PROPS DRILLING
+==================================
 
+CONTEXT API
+========================================
 
+USE REF
+========================================
+{useRef}
+
+SCENARIO 1
+==================
+1.UPDATE STATE
+2.PRINT CITY
+2.UPDATE CITY
+3.PRINT CITY
+SCENARIO 2
+======================
+1.UPDATE STATE
+2.PRINT CITY
+3.UPDATE CITY
+4.PRINT CITY
+5.UPDATE STATE
+6.PRINT CITY
+
+CONDITIONAL RENDERING OF FUNCTIONAL COMPONENT
+=================================================
+SAME COMPONENT CAN BE USED MULTIPLE TIMES.
 
 
 

@@ -1,0 +1,51 @@
+import axios from 'axios'
+import { Link } from 'react-router-dom';
+IN APP.JS
+=====================================
+import "bootstrap/dist/css/bootstrap.css";
+import { Route, Routes } from "react-router-dom";
+ROUTES
+=============================================
+<Routes>
+    <Route path={"/"} element={<Home />} />
+    
+        
+    <Route path={"/food"} element={<Food/>}>
+       <Route path={"add"} element={<AddFood/>}/>
+       <Route path={"delete"} element={<DeleteFood/>}/>
+       <Route path={"update"} element={<UpdateFood/>}/>
+       <Route path={"foodreport"} element={<GetFood/>}/>
+       <Route path={"searchfoodid"} element={<SearchFood/>}/>
+      </Route>
+     
+    </Routes>
+===============================================================
+IN NAV.js
+================================================================
+<a href to="/">HOME</a>
+ <a href="/food">FOOD</a>
+===================================================================
+Index.js
+================================================
+import {BrowserRouter} from 'react-router-dom'
+ReactDOM.render(
+  <BrowserRouter>
+<App/>
+</BrowserRouter>,
+document.getElementById("root"));
+========================================================
+FOOD.js
+========================================================
+ <div className='productContainer'>
+          <div className='leftContainer'>
+          <Link to="add">ADD FOOD</Link>
+         <Link to="delete">DELETE FOOD</Link>
+          <Link to="update">UPDATE FOOD</Link>
+          <Link to="foodreport">AVAILABLE FOOD</Link>
+          <Link to="searchfoodid">SEACRH FOOD</Link>
+          </div>
+          <div className='rightContainer'>
+           <Outlet/>
+          </div>
+        </div>
+=============================================================
