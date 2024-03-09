@@ -1,0 +1,6 @@
+ <Route path={"addfood"} element={<AddFood/>}/>
+      <Route path={"deletefood"} element={<DeleteFood/>}/>
+      <Route path={"updatefood"} element={<UpdateFood/>}/>
+      <Route path={"foodreport"} element={<GetFood/>}/>
+      <Route path={"searchfoodid"} element={<SearchFoodId/>}/>
+      </Route>
